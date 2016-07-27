@@ -1,0 +1,24 @@
+Jinoo Hong 
+
+1.  How can you concatenate strings in C? 
+	Use the strcat(string1,string2) function to concatenate 2 strings.
+
+2.  If a static array is not initialized, what will the size automatically be set to? 
+	A size will not be set. You can check this with the sizeof() function that will then create an error.
+
+3.  How would you declare a multidimensional array of size 64? Explain your answer. 
+You need to provide 2 pieces of data when creating an array. For example: int array[2][32];
+
+
+4.  In your own words, explain what each of the following functions does and returns:
+      - strcmp() 
+		This function compares two strings strcmp(string1,string2) and sees which string is bigger and smaller in terms of ASCII. If they are equal, strcmp(string1,string2) will equal zero.
+
+      - fgets()
+		fgets reads a string in from a source that the programmer tells it to. This source can be from the keyboard or a file.
+
+      - strcat() 
+		This function concatenates two strings
+
+      - strlen()
+		This finds the length of a string and NOT its size.

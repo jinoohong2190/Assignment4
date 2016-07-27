@@ -16,7 +16,7 @@ int main() {
 	/*prompt for data, then add data to array, then add data to newarray by adding newnum and prevtotal, lastly add newnum to prevtotal*/
 	prevtotal=0;
 	for (counter=0; counter<numindex; counter++) {
-		printf("Please enter an integer for pos %d of the array: ", counter+1);
+		printf("Please enter an integer for position %d of the array: ", counter+1);
 		scanf("%d", &newnum);
 		array[counter]=newnum;
 		newarray[counter]=newnum+prevtotal;
